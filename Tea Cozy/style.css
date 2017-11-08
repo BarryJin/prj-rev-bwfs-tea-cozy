@@ -1,0 +1,129 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: Seashell;
+  background-color: Black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.top{
+  display: flex;
+  align-items: center;
+  background-color: Black;
+  border-bottom: 1px solid Seashell;
+  margin-top: 0;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  z-index: 1;
+}
+
+.top img {
+  height: 50px;
+  margin: 10px;
+}
+
+nav {
+  padding-right: 10px;
+  position: fixed;
+  right: 0px;
+}
+
+nav a{
+  display: inline-block;
+  padding: 10px;
+  color:Seashell;
+}
+
+#mission {
+  position: relative;
+  top:70px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  flex-direction: column;
+  width: 1200px;
+  height: 700px;
+  background-image: url('./resources/img-mission-background.jpg');
+}
+
+#mission .content{
+  display: block;
+  background-color: black;
+  width: 1200px;
+  color: seashell;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+#month {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: 50px;
+  margin: auto;
+  padding: 50px;
+}
+
+#month .menu{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.menu img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#locations {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("./resources/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+}
+
+.address {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 15px;
+}
+
+.address .content {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+  height: 300px;
+  width: 300px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+}
+
+footer {
+  display: block;
+  text-align: left;
+  margin-left: 20px;
+}
